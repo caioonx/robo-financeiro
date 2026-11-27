@@ -1,0 +1,7 @@
+# Robo Financeiro - Dependencias
+# Python 3.14
+
+mysql-connector-python==26.10.0
+pandas==3.1.1
+openpyxl==3.1.5
+keyring==25.7.0

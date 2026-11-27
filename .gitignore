@@ -1,0 +1,66 @@
+#ROBO FINANCEIRO - GITIGNORE
+
+#Credenciais e configuracoes privadas
+.env
+.env.*
+!.env.example
+credenciais.json
+credentials.json
+secrets.json
+config_local.py
+*.key
+*.pem
+
+#Relatorios e dados financeiros
+*.xlsx
+*.xls
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+
+#Backups
+backups/
+
+#Logs de execucao
+logs/
+*.log
+
+#Arquivos temporarios do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#Ambientes virtuais
+venv/
+.venv/
+env/
+
+#Configuracoes de desenvolvimento
+.vscode/
+.idea/
+
+#Arquivos do sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+#Arquivos temporarios
+*.tmp
+*.bak
+~$*
+
+# Exportacoes privadas do MySQL
+*.sql
+!schema.sql
+!dados_demo.sql
+
+# Arquivos compactados
+*.zip
+*.rar
+*.7z
+
+# Arquivos de configuracao privada
+*.ini
+*.cnf
